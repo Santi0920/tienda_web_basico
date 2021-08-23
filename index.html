@@ -3,91 +3,104 @@
     <head>
         <meta charset="utf-8">
             <title>TIENDA DE APPLE BASICA</title>
-
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+            <link rel="stylesheet" href="Css/style.css"/> 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
     </head>
-<body>
+<body class="bg-secondary">
 
 <nav>
-    <a name="Arriba">Inicio</a>
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="container , text-center , text-white , h1 , borde" style=background-color:tomato><img src="Imagenes/Apple.png" alt="Apple Logo" width="60" height="60">  TIENDA <span class="text-warning">APPLE </span>A MEJORES PRECIOS!  <img src="Imagenes/Apple.png" alt="Apple Logo" width="60" height="60"></h5>
+                <div class="text-muted">
+                    <div class="text-center">
+                        <ul class="row">
+                 
+                            <li class="container-sm col"><a href="https://www.apple.com/" target="blank"><img src="Imagenes/apple logo azul.png" alt="apple" width="50" height="50"><h4>Pagina Principal de Apple</h4></a></li>
+                            <li class="container-sm col"><a href="https://www.apple.com/shop/bag" target="blank"><img src="Imagenes/Carrito.png" alt="Carrito" width="50" height="50"><h4>Gestionar Carrito</h4></a></li>
+                            <li class="container-sm col"><a href="https://finance-app.itunes.apple.com/purchases" target="blank"><img src="Imagenes/Historial.png" alt="Historial" width="50" height="50"><h4>Historial de Compras</h4></a></li> 
+                      
+                        </ul>
+                    </div>
+                </div>            
+         </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+    </div>
+      
+    
 
-        <h1 style="font-size: 30px;">
-            BRANDING
-        </h1>
-
-        <span>Pagina Principal de Apple: 
-            <a href="https://www.apple.com/" target="blank">Aquí</a>
-        </span>
-           
-            <br>    
-
-        <span>Inspeccionar tu Carrito: 
-            <a href="https://www.apple.com/shop/bag" target="blank">Aquí</a>
-        </span>
-
-            <br>
-
-        <span>Historial de Compras: 
-            <a href="https://finance-app.itunes.apple.com/purchases" target="blank">Aquí</a>
-        </span>
+    <span class="container-fluid , text-white , h2">
+        <a name="Arriba"></a>
+    </span>
+        <br>
+<br>
 
 </nav>
-
-<p>--------------------------------------</p>
-
-<nav>
-        <h2 style="font-size: 30px;">
+<div class="text-center">
+    <nav class="container-sm">
+        <h2 style="font-size: 30px;" class="text-danger">
             PRODUCTOS
         </h2>
         
-        <span>Productos Ofertados Por Apple!</span>
+        <span class="text-white , container-xxsm ">Productos Ofertados Por Apple!</span>
         
-</nav>
+    </nav>
 
-    <ul>
-            <li>iPad Pro</li>
-            <li>iPhone</li>
-            <li>Mac</li>
-            <li>TV</li>
-            <li>Airpods</li>
-    </ul>
+    <ul class="text-white navbar-nav container-sm">
+            <li class="">- iPhone</li>
+            <li class="">- MacBook</li>
+            <li class="">- Airpods</li>
+            <li class="">- TV</li>
+            <li class="">- iPads</li>
+    </ul>    
     <br>
+<div class="contenedor, borde"></div>
 
     
 
 
 
-<article>
-
+<article class="container-sm">
+<br>
         <nav>
-            <span>Productos Relevantes:</span>
+            <span class="text-white">Productos Relevantes en Nuestra Tienda:</span>
             <br>
         </nav>
 
         <section>
             
             <div>
-                <h3 style="font-weight: bolder;">IPHONE 12 PRO:</h3>
-                    <img src="Imagenes/IPHONE 12 PRO.png" width="200px" height="200px"><img src="Imagenes/iphone.png" width="230px" height="230px"><img src="Imagenes/IPHONE12.png" width="230px" height="230px">
-            
-                    <br>
-
-                <div>
-                    <span style="font-weight: bolder;">Precio del Producto: <span style="font-weight: normal;">$4.999.999</span></span>
-                </div>
+                <h3 style="font-weight: bolder;" class="text-warning">IPHONE 12 PRO</h3>
+                <br>
                 
 
+                    <div class="text-center">
+                        <img src="Imagenes/IPHONE 12 PRO.png" alt="IPHONE12" width="270" height="200"><img src="Imagenes/iphone.png" alt="IPHONE12" width="270" height="200"><img src="Imagenes/IPHONE12.png" alt="IPHONE12" width="270" height="260">
+                    </div>
                     <br>
-
-                <span style="font-weight: bolder;">Algo que tienes que saber sobre este producto: </span>
                     
-                    <br>
 
-                <p>Las versiones Pro de los iPhone son lo mejor de lo mejor, los celulares Pro y Plus de Apple prácticamente inventaron la categoría de gama alta y el iPhone Pro Max llegó para subir aún más la vara de lo que se considera un celular de última generación. No solo es el celular más grande que ha sacado Apple sino que también tiene una de las mejores cámaras y resolución de pantalla, sin mencionar el estilo sello de Apple.</p>
+                <div class="text-center">
+                    <h3 style="font-weight: bolder;" class="text-white">Precio del Producto: <span style="font-weight: normal;" class="text-success">$4.999.999</span></h3>
+                </div>
+                <br>
                 
-                <span style="font-weight: bolder;">CARACTERISTICAS IPHONE 12 PRO:</span>
+
+                    
+                <h5 style="font-weight: bolder;" class="text-info">Algo que tienes que saber sobre este producto: </h5>
+                    
+
+                <p class="text-white , lead , container-sm , text-justify">Las versiones Pro de los iPhone son lo mejor de lo mejor, los celulares Pro y Plus de Apple prácticamente inventaron la categoría de gama alta y el iPhone Pro Max llegó para subir aún más la vara de lo que se considera un celular de última generación. No solo es el celular más grande que ha sacado Apple sino que también tiene una de las mejores cámaras y resolución de pantalla, sin mencionar el estilo sello de Apple.</p>
                 
-                <ul> 
+                <span style="font-weight: bolder;" class="text-info">CARACTERISTICAS IPHONE 12 PRO:</span>
+                
+                <ul class="text-white"> 
                     <li>Pantalla: 6,7" pulgadas OLED</li>
                     <li>Resolución: 2.778 x 1.184 píxeles FullHD+</li>
                     <li>Procesador: Apple A14 Bionic</li>
@@ -107,27 +120,28 @@
             
             <div>
 
-                <h3 style="font-weight: bolder;">APPLE MACBOOK PRO 13:</h3>
-                        <img src="Imagenes/macbook.png" width="200px" height="200px"><img src="Imagenes/pro.png" width="230px" height="230px"><img src="Imagenes/proo.png" width="330px" height="180px">
+                <h3 style="font-weight: bolder;" class="text-warning">APPLE MACBOOK PRO 13</h3>
+                    <div class="text-center">    
+                        <img src="Imagenes/macbook.png" alt="MacBook" width="270" height="200"><img src="Imagenes/pro.png" alt="MacBook" width="270" height="300"><img src="Imagenes/proo.png" alt="MacBook" width="330" height="180">
+                    </div>
+                        
 
-                        <br>
-
-                <div>
-                    <span style="font-weight: bolder;">Precio del Producto: <span style="font-weight: normal;">$5.698.000</span></span>
+                <div class="text-center">
+                    <h3 style="font-weight: bolder;" class="text-white">Precio del Producto: <span style="font-weight: normal;" class="text-success">$5.698.000</span></h3>
                 </div>
 
                 <br>
 
 
-                <span style="font-weight: bolder;">Algo que tienes que saber sobre este producto: </span>
+                <h5 style="font-weight: bolder;" class="text-info">Algo que tienes que saber sobre este producto: </h5>
 
-                <br>
-
-
-                <p>Los nuevos Apple MacBook 13 incorporan procesadores Intel Core de octava y décima generación, con versiones base Intel Core i5 y ampliables a la versión i7. En esta generación, por fin se ha dado el salto a un almacenamiento y configuración de memoria mayor, partiendo de los 256GB y los 8GB de memoria RAM.</p>
                 
-                <span style="font-weight: bolder;">CARACTERISTICAS APPLE MACBOOK PRO 13:</span>
-                <ul>
+
+
+                <p class="text-white , lead">Los nuevos Apple MacBook 13 incorporan procesadores Intel Core de octava y décima generación, con versiones base Intel Core i5 y ampliables a la versión i7. En esta generación, por fin se ha dado el salto a un almacenamiento y configuración de memoria mayor, partiendo de los 256GB y los 8GB de memoria RAM.</p>
+                
+                <span style="font-weight: bolder;" class="text-info">CARACTERISTICAS APPLE MACBOOK PRO 13:</span>
+                <ul class="text-white">
                     <li>Pantalla: 13.3 pulgadas.</li>
                     <li>Resolución: 2560 x 1600 a 227 píxeles.</li>
                     <li>Cámara FaceTime HD de 720p</li>
@@ -146,25 +160,27 @@
             
             <div>
                 
-                <h3 style="font-weight: bolder;">APPLE AIRPODS PRO:</h3>
-                    <img src="Imagenes/AIRPODS.png" width="200px" height="200px"><img src="Imagenes/air.png" width="200px" height="200px"><img src="Imagenes/aiir.png" width="200px" height="200px">
-                
+                <h3 style="font-weight: bolder;" class="text-warning">APPLE AIRPODS PRO <span class="badge badge-secondary">Nuevo</span></h3>
+                    <div class="text-center">
+                        <img src="Imagenes/AIRPODS.png" alt="AirPods" width="270" height="200"><img src="Imagenes/air.png" alt="AirPods" width="350" height="200"><img src="Imagenes/aiir.png" alt="AirPods" width="300" height="200">
+                    </div>     
+                <br>
                 <br>
                 
-                <div>
-                    <span style="font-weight: bolder;">Precio del Producto: <span style="font-weight: normal;">$898.900</span></span>
+                <div class="text-center">
+                    <h3 style="font-weight: bolder;" class="text-white">Precio del Producto: <span style="font-weight: normal;" class="text-success">$898.900</span></h3>
                 </div>
 
                 <br>
                 
-                <span style="font-weight: bolder;">Algo que tienes que saber sobre este producto: </span>
-                <br>
-
-                <p>Los nuevos modelos, denominados AirPods Pro, adquieren ese apellido por un motivo principal: la inclusión de la reducción de ruido activa, lo que los eleva de nivel (y precio) y hace mucho más interesantes que las generaciones anteriores.</p>
+                <h5 style="font-weight: bolder;" class="text-info">Algo que tienes que saber sobre este producto: </h5>
                 
-                <h3 style="font-weight: bolder;">CARACTERISTICAS APPLE AIRPODS PRO:</h3>
 
-                <ul>
+                <p class="text-white , lead">Los nuevos modelos, denominados AirPods Pro, adquieren ese apellido por un motivo principal: la inclusión de la reducción de ruido activa, lo que los eleva de nivel (y precio) y hace mucho más interesantes que las generaciones anteriores.</p>
+                
+                <span style="font-weight: bolder;" class="text-info">CARACTERISTICAS APPLE AIRPODS PRO:</span>
+
+                <ul class="text-white">
                     <li>Cancelación Activa de Ruido para un sonido inmersivo</li>
                     <li>Resistencia al agua y al sudor.</li>
                     <li>Acceso rápido a Siri con sólo decir "Oye Siri”</li>
@@ -177,32 +193,87 @@
         </section>
 
 </article>
+<div class="container-sm">
+<span style="font-weight: bolder;" class="text-light , container-xxsm">Deseas Registrar Productos Apple?  </span>
+    <button class="btn btn-primary" type="button" onclick="window.open('file:///D:/Code/tienda_web_basico/registrar_producto.html')"> Registrar</button>
+</div>
 
 
 <br>
-<!--Ancla-->
-<div align="center">
-    <a href=#Arriba>Volver al Inicio</a>
+<div class="contenedor, borde"></div>
+
+<br>
+
+<div class="text-center">
+    
+    <p><a href=#Arriba class="text-success, container-sm , box">Volver al Inicio</a></p>
 </div>
 
-        <footer>
-            <p align="center">Dirección Oficina Principal: <span style="font-style: italic;">Calle 6 # 76-14 local 35 Local 35</span> </p>
+        <footer class="text-white">
+            <p class="text-center , text-muted">Dirección Oficina Principal: <span style="font-style: italic;" class="text-center , text-white">Calle 6 # 76-14 local 35 Local 35</span> </p>
 
             <div>
-                <p align="center">Número de Contacto: <span style="font-style: italic;">301 6021681</span> </p>
+                <p class="text-center , text-muted">Número de Contacto: <span style="font-style: italic;" class="text-center , text-white">301 6021681</span> </p>
             </div>
 
             <div>
-                <p align="center">Correo Electrónico: <span style="font-style: italic;">appleid@id.apple.com</span> </p>
+                <p class="text-center , text-muted">Correo Electrónico: <span style="font-style: italic;" class="text-center , text-white">appleid@id.apple.com</span> </p>
             </div>
 
-            <div align="center">
-                <img src="Imagenes/Apple.png" width="100px" height="100px">
+            <div class="text-center">
+                <img src="Imagenes/Apple.png" alt="Logo Apple" width="100" height="100">
+            </div>
+            <br>
+            
+            <div class="text-center">
+                <span>© 2021 - Apple Store</span>
+
             </div>
 
         </footer>
+       
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-</body>
+        
+
+    </body>
+    
 </html>
+<style>
+    body {
+        height: 100%;
+        background-color: #37333a;
+      /*color de fondo*/        
+      background: #49474b; 
+      background: -webkit-linear-gradient(to right, #141316, #9e9b9b); 
+      background: linear-gradient(to right, #141316, #9e9b9b);
+      }
+      
+      .contenedor{
+          width: 100%;
+          margin-right: 1rem;
+          height: 1rem;
+          background-color:lightseagreen ;
+          border-radius: .25rem;
+      }
+      
+      .sidebar{
+          width: 20%;
+          margin-right: 10rem;
+          height: 10rem;
+          background-color:lightcoral;
+          border-radius: .25rem;
+      }
+
+      .borde{border: 1px rgb(0, 0, 0) solid;}
+
+      .box{
+        border: 1px #000 solid;
+        background-color: wheat;
+          margin: 30px 20%;
+
+    
+      }
+      
+      </style>
